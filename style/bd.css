@@ -139,3 +139,15 @@
     padding: 17px 34px;
     border-radius: 8px;
 }
+/* The vision of future */
+.vision{
+    margin: 80px 160px;
+}
+
+.vision-cards{
+    display: flex;
+    justify-content: space-around;
+    width: 410px 325px;
+    border-radius: 16px;
+    
+}

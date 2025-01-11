@@ -105,7 +105,11 @@
     font-weight: 900;
     font-style: italic;
   }
-  
+
+/* background */
+.background{
+    background-color: #F1F1F3;
+}  
 
 /* Banner */
 .banner{
@@ -143,11 +147,82 @@
 .vision{
     margin: 80px 160px;
 }
-
+.vision-header{
+    /* padding: 80px 160px 32px 160px; */
+}
 .vision-cards{
     display: flex;
     justify-content: space-around;
     width: 410px 325px;
     border-radius: 16px;
-    
+    gap: 24px;
+    padding: 32px;
+}
+.digital-transformation{
+    background-color: rgba(84, 144, 245, 0.2);
+    gap: 24px;
+    padding: 32px;
+    border-radius: 16px;
+}
+.dt-btn{
+    background-color: #5490F5;
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 8px;
+}
+.green-energy{
+    background-color: rgba(198, 228, 214, 1);
+    gap: 24px;
+    padding: 32px;
+    border-radius: 16px; 
+}
+.ge-btn{
+    background-color: #09A15C;
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 8px;
+}
+.modern-infrastructure{
+    background-color: rgba(247, 235, 207, 1);
+    gap: 24px;
+    padding: 32px;
+    border-radius: 16px; 
+}
+.mi-btn{
+    background-color: #FFC239;
+    font-weight: 600px;
+    font-size: 16px;
+    border: none;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    border-radius: 8px;
+}
+.qote{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top 25px left 24px;
+    background-color: #FFFFFF;
+    width: 1280pc 256px;
+    border-radius: 16px;
+    background-position: 24px 25px;
+    padding: 48px 24px;
+}
+.speech{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.8);
+    justify-content: left;
+}
+.name{
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+.designation{
+    font-size: 16px;
 }

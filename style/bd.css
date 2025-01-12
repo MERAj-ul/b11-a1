@@ -315,28 +315,28 @@ input::placeholder {
   text-align: center;
   color: rgba(14, 14, 14, 0.3);
 }
-.container-dbtn{
+.donate-button{
   align-items: center;
 }
 .donate-btn{
   background-color: #006A50;
-  margin: auto;
-  /* width: 34px;
-  height: 17px; */
+  width: 151px;
+  height: 56px;
   font-weight: 600px;
   font-size: 18px;
   border: none;
   color: #FFFFFF;
-  padding: 34px 17px;
+  /* padding: 34px 17px; */
   border-radius: 8px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 /* Newsletter */
 .newsletter{
+  margin-top: 80px;
   margin-left: 160px;
   margin-right: 160px;
   max-width: 100%;
-  height: 395px;
+  /* height: 395px; */
   background-color: #C6E4D6;
   border-radius: 24px;
   padding: 80px 265px;
@@ -350,4 +350,35 @@ input::placeholder {
   font-size: 16px;
   text-align: center;
   color: rgba(14, 14, 14, 0.7);
+}
+/* .subscribe{
+  gap: 0px;
+} */
+form{
+  width: 600px;
+  height: 55px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+}
+form input{
+  flex: 1;
+  border: none;
+  outline: none;
+  
+}
+form button{
+  background-color: #006A50;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600px;
+  color: #C6E4D6;
+  border-radius: 5px;
+}
+.promise{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  text-align: center;
 }

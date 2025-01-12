@@ -115,6 +115,7 @@
 .banner{
     background-color: #C6E4D6;
     display: flex;
+    border-radius: 24px;
     justify-content: space-between;
     margin: 0px 160px 80px 160px;
     padding: 80px 60px;
@@ -156,7 +157,8 @@
     width: 410px 325px;
     border-radius: 16px;
     gap: 24px;
-    padding: 32px;
+    margin-bottom: 32px;
+    /* padding: 32px; */
 }
 .digital-transformation{
     background-color: rgba(84, 144, 245, 0.2);
